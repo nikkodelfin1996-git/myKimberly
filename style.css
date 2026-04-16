@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ffeef2; /* Soft Pink */
+    color: #4a4a4a;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px border rgba(255, 255, 255, 0.18);
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+h1 { font-family: 'Dancing Script', cursive; font-size: 3.5rem; color: white; }
+
+.kilig-section { padding: 60px 20px; text-align: center; font-style: italic; }
+
+.promise-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.surprise-container { margin: 50px 0; text-align: center; }
+
+button {
+    padding: 15px 30px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover { background: #c9184a; transform: scale(1.1); }
+
+.hidden { display: none; margin-top: 20px; font-weight: bold; color: #ff4d6d; }
